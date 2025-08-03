@@ -1,0 +1,14 @@
+** Drc report for HOT_AIRGUN_EXTRADOPE.kicad_pcb **
+** Created on 2025-08-02T21:32:27+0300 **
+
+** Found 0 DRC violations **
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(16.4494 mm, 104.4857 mm): Zone [GND] on F.Cu and B.Cu
+    @(16.4494 mm, 104.4857 mm): Zone [GND] on F.Cu and B.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

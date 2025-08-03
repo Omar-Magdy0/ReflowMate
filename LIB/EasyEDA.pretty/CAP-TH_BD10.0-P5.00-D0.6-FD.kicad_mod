@@ -1,25 +1,156 @@
-(module easyeda2kicad:CAP-TH_BD10.0-P5.00-D0.6-FD (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "CAP-TH_BD10.0-P5.00-D0.6-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "e54ae2ea-5027-42d0-9223-65611c575ee9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-TH_BD10.0-P5.00-D0.6-FD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "65bdbeaf-6b38-48ae-abc4-1f15edc7dfca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83a6466b-b8df-405a-afa1-f00b2b64729a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7253879a-2025-4e05-927a-d5090385d5fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -4.57 0)
+		(end -3.56 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26ad4ad1-3b8c-41e7-97ea-c041f3b13820")
 	)
-	(fp_text value CAP-TH_BD10.0-P5.00-D0.6-FD (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -4.06 -0.76)
+		(end -4.06 0.76)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dccd66ec-94dc-43c7-8212-b10a8dba2dd0")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ba481fb9-70b7-44a6-90d8-2672303581e0")
 	)
-	(fp_line (start -4.57 -0.00) (end -3.56 -0.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -4.06 -0.76) (end -4.06 0.76) (layer F.SilkS) (width 0.25))
-	(pad 2 thru_hole circle (at 2.50 0.00 0.00) (size 1.60 1.60) (layers *.Cu *.Mask)(drill 0.9999979999999999))
-	(pad 1 thru_hole circle (at -2.50 0.00 0.00) (size 1.60 1.60) (layers *.Cu *.Mask)(drill 0.9999979999999999))
-	(fp_circle (center -5.00 5.00) (end -4.97 5.00) (layer F.Fab) (width 0.06))
-	(fp_circle (center -0.00 0.00) (end 5.00 0.00) (layer F.SilkS) (width 0.25))
-	(fp_circle (center 2.50 0.00) (end 2.65 0.00) (layer F.Fab) (width 0.30))
-	(fp_circle (center -2.50 0.00) (end -2.35 0.00) (layer F.Fab) (width 0.30))
-	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CAP-TH_BD10.0-P5.00-D0.6-FD.wrl"
-		(offset (xyz -0.000 -0.000 0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_circle
+		(center -5 5)
+		(end -4.97 5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "98227c0b-5a75-412b-8b29-a394fcb7d704")
+	)
+	(fp_circle
+		(center -2.5 0)
+		(end -2.35 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "73efa487-376e-4c93-a066-5df48910c054")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 2.65 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8f731c4a-9b90-406f-ada2-c9cb3dd9474b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a1f453d2-246a-47e1-8d88-80b765f06d27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d131db26-a8ab-4b44-8cb3-ae3ae93b9540")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52118b45-1532-4a30-9bae-f36e2fb3efc8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LIB/EasyEDA.3dshapes/CAP-TH_BD10.0-P5.00-D0.6-FD.wrl"
+		(offset
+			(xyz -0 -0 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )

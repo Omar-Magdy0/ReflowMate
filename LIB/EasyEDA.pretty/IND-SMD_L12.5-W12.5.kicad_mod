@@ -145,7 +145,7 @@
 		(uuid "fc30ca25-c40f-4415-9fc3-d2d2b3da4715")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SMD-PIND_L12.5-W12.5-H8.0.wrl"
+	(model "${KIPRJMOD}/LIB/EasyEDA.3dshapes/SMD-PIND_L12.5-W12.5-H8.0.wrl"
 		(offset
 			(xyz 0 -0 -0)
 		)

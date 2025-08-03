@@ -4116,6 +4116,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5546,16 +5629,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 156.21) (xy 243.84 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "198a5a6a-ba6a-40fe-84af-9ac8fb917f48")
-	)
-	(wire
-		(pts
 			(xy 148.59 110.49) (xy 148.59 115.57)
 		)
 		(stroke
@@ -5563,16 +5636,6 @@
 			(type default)
 		)
 		(uuid "19d4e59a-201b-490e-bd86-06f3eca52003")
-	)
-	(wire
-		(pts
-			(xy 242.57 140.97) (xy 243.84 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de03079-437b-45e3-898c-403443965ec9")
 	)
 	(wire
 		(pts
@@ -5706,6 +5769,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 33.02) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334cf555-19c6-4882-af31-4d68586936ae")
+	)
+	(wire
+		(pts
 			(xy 114.3 153.67) (xy 116.84 153.67)
 		)
 		(stroke
@@ -5743,16 +5816,6 @@
 			(type default)
 		)
 		(uuid "3beaee07-767e-4011-8b27-971a69376eda")
-	)
-	(wire
-		(pts
-			(xy 48.26 33.02) (xy 55.88 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8a6e01-fcaa-4fd2-ac6b-e3f1e4b33017")
 	)
 	(wire
 		(pts
@@ -5813,6 +5876,16 @@
 			(type default)
 		)
 		(uuid "416a6b01-5dd4-418d-9d2c-19475dc984eb")
+	)
+	(wire
+		(pts
+			(xy 240.03 156.21) (xy 243.84 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e5b64b-d548-4eeb-91bd-9287d964b57d")
 	)
 	(wire
 		(pts
@@ -5903,6 +5976,16 @@
 			(type default)
 		)
 		(uuid "4b6c25df-e8bd-45f8-ace6-5f6e30f935c2")
+	)
+	(wire
+		(pts
+			(xy 267.97 156.21) (xy 271.78 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dae10ad-469f-4acc-a8a4-f06e9cf69906")
 	)
 	(wire
 		(pts
@@ -6136,7 +6219,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 35.56) (xy 55.88 35.56)
+			(xy 41.91 35.56) (xy 55.88 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6223,16 +6306,6 @@
 			(type default)
 		)
 		(uuid "79b350d9-531b-44ce-803c-13ee2a78d116")
-	)
-	(wire
-		(pts
-			(xy 269.24 140.97) (xy 271.78 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a178154-57f4-4993-9cc3-920e5eaf36bd")
 	)
 	(wire
 		(pts
@@ -6446,13 +6519,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 30.48) (xy 55.88 30.48)
+			(xy 267.97 147.32) (xy 271.78 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a079f3fe-2f7d-4c41-8e96-93bb34a23ab8")
+		(uuid "a00b356f-87fd-47d6-835f-db18290d587f")
 	)
 	(wire
 		(pts
@@ -6506,6 +6579,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 36.83) (xy 248.92 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7dc512e-b6ca-47fd-b86c-a1b9330d37c2")
+	)
+	(wire
+		(pts
 			(xy 49.53 38.1) (xy 55.88 38.1)
 		)
 		(stroke
@@ -6543,16 +6626,6 @@
 			(type default)
 		)
 		(uuid "acc0b93d-8e75-41f6-beb1-51f67db8588b")
-	)
-	(wire
-		(pts
-			(xy 270.51 156.21) (xy 271.78 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acda150a-dffa-4ee7-80bc-86f4f511b25d")
 	)
 	(wire
 		(pts
@@ -6706,6 +6779,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 140.97) (xy 271.78 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b032f0-e821-4d0f-b1ad-20d249d8ed83")
+	)
+	(wire
+		(pts
 			(xy 74.93 118.11) (xy 74.93 121.92)
 		)
 		(stroke
@@ -6843,16 +6926,6 @@
 			(type default)
 		)
 		(uuid "d72c77af-94c3-4c95-a747-a4415d403c74")
-	)
-	(wire
-		(pts
-			(xy 270.51 147.32) (xy 271.78 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d81ffcef-f600-4a6b-bd11-20e54025437a")
 	)
 	(wire
 		(pts
@@ -7056,16 +7129,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 172.72 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a7ba29-45d4-4497-88a9-0a7b12772ae0")
-	)
-	(wire
-		(pts
 			(xy 158.75 39.37) (xy 161.29 39.37)
 		)
 		(stroke
@@ -7216,6 +7279,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 140.97) (xy 243.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadc4518-5dc4-469a-8c3a-c9596c3e4f7e")
+	)
+	(wire
+		(pts
 			(xy 270.51 125.73) (xy 271.78 125.73)
 		)
 		(stroke
@@ -7246,6 +7319,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 30.48) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd242baa-4f44-43a5-9e2a-b61548c201d3")
+	)
+	(wire
+		(pts
 			(xy 246.38 72.39) (xy 252.73 72.39)
 		)
 		(stroke
@@ -7253,6 +7336,16 @@
 			(type default)
 		)
 		(uuid "ffcb895a-386d-4458-bd54-71a97b466515")
+	)
+	(label "VREFAtt2"
+		(at 49.53 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01314697-0f47-4683-a297-d5df1bd4c445")
 	)
 	(label "I2C_SDA"
 		(at 114.3 177.8 0)
@@ -7304,16 +7397,6 @@
 		)
 		(uuid "1b020579-bfb2-41e7-9725-56057caf1197")
 	)
-	(label "VREFAtt1"
-		(at 48.26 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1fec94e1-6bfa-46b8-86b3-7efda13e06f1")
-	)
 	(label "SPI_CS0"
 		(at 53.34 48.26 180)
 		(effects
@@ -7324,7 +7407,7 @@
 		)
 		(uuid "24512a51-64ab-4da7-9f03-30907feb1ec9")
 	)
-	(label "VREF_2p5"
+	(label "VREF2p5"
 		(at 194.31 119.38 180)
 		(effects
 			(font
@@ -7394,16 +7477,6 @@
 		)
 		(uuid "54331b25-c233-4151-9393-8c8f1d7be840")
 	)
-	(label "VREFAtt2"
-		(at 48.26 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5a545aa6-a54d-4058-a1a3-1f94ae71e827")
-	)
 	(label "BOOT_MODE"
 		(at 64.77 147.32 180)
 		(effects
@@ -7413,6 +7486,16 @@
 			(justify right bottom)
 		)
 		(uuid "5c5d13b0-d611-4678-88ae-d512e99ac4d9")
+	)
+	(label "VREFAtt1"
+		(at 49.53 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "660aa972-322d-4ad5-9e85-055feaf20df9")
 	)
 	(label "I2C_SCL"
 		(at 114.3 180.34 0)
@@ -7484,7 +7567,7 @@
 		)
 		(uuid "b48916fa-2a09-4535-ab1f-635816463bb9")
 	)
-	(label "VREF_2p5"
+	(label "VREF2p5"
 		(at 168.91 148.59 0)
 		(effects
 			(font
@@ -7604,50 +7687,6 @@
 		)
 		(uuid "f1ba61ea-eae7-4dfe-a609-4a7cf91d6405")
 	)
-	(global_label "AcLoad2-"
-		(shape input)
-		(at 242.57 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "061a97f8-0c42-4a72-8172-b8abc162a18e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.1506 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ThermocoupleSig2"
-		(shape input)
-		(at 49.53 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08bb63ea-c1df-4981-932a-45f90aae5ea1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.2489 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DC_Load2-"
 		(shape input)
 		(at 270.51 158.75 180)
@@ -7661,28 +7700,6 @@
 		(uuid "0e2f0835-fab4-4c06-8a2e-aac2ed100de1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.7602 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TempSense"
-		(shape input)
-		(at 49.53 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22cd66ed-0527-4499-a192-d92395fc8227")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.0825 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,72 +7753,6 @@
 			)
 		)
 	)
-	(global_label "ThermocoupleSig1"
-		(shape input)
-		(at 49.53 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42ffe32a-6c9d-42f9-8680-399167b875bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.2489 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AcLoad1-"
-		(shape input)
-		(at 269.24 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c6fa3d6-94a1-4d61-9ff8-e1f0a19706f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8206 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DC_Load3+"
-		(shape input)
-		(at 242.57 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fbc5ad1-827a-48c3-a69e-2ef6cfee28d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.8202 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Termocouple1-"
 		(shape input)
 		(at 270.51 119.38 180)
@@ -7824,28 +7775,6 @@
 			)
 		)
 	)
-	(global_label "DC_Load1+"
-		(shape input)
-		(at 270.51 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fd58e2f-3341-4725-b75e-967bd4535e9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.7602 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DC_Load3-"
 		(shape input)
 		(at 242.57 158.75 180)
@@ -7859,6 +7788,28 @@
 		(uuid "50dfc19a-4cab-4984-8e89-3d5fdc12ab30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.8202 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ThermocoupleSig2"
+		(shape input)
+		(at 41.91 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f1743f7-83e1-42eb-8bb6-73d6c626177c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6289 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,6 +7973,28 @@
 			)
 		)
 	)
+	(global_label "ThermocoupleSig1"
+		(shape input)
+		(at 41.91 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9935e282-9d6b-46ea-a5bc-d8ce1353b355")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6289 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AcLoad1Control"
 		(shape input)
 		(at 97.79 40.64 0)
@@ -8154,9 +8127,9 @@
 			)
 		)
 	)
-	(global_label "DC_Load2+"
+	(global_label "TempSense"
 		(shape input)
-		(at 270.51 156.21 180)
+		(at 41.91 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8164,9 +8137,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e1cd33a3-c25e-4958-9f0a-5a863ddd6da3")
+		(uuid "f1a7ecc0-19a7-4831-b4e8-27cdc341dbc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.7602 156.21 0)
+			(at 28.4625 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
 			(at 163.83 22.86 0)
 			(effects
 				(font
@@ -8817,6 +8790,70 @@
 			(project "HOT_AIRGUN_EXTRADOPE"
 				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1837d42a-121b-40aa-8504-c044d303ad75")
+		(property "Reference" "H2"
+			(at 163.83 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 161.29 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HOT_AIRGUN_EXTRADOPE"
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9826,6 +9863,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 267.97 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4598518f-7c79-4ae5-8305-9be2ae748d1e")
+		(property "Reference" "#PWR081"
+			(at 267.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 265.684 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 267.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdd8b99c-8c53-49a1-9445-81fea459fb56")
+		)
+		(instances
+			(project "HOT_AIRGUN_EXTRADOPE"
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 82.55 0)
 		(unit 1)
@@ -10469,6 +10572,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 248.92 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "584d1c75-abb2-423f-8edf-1aaac2f2e9df")
+		(property "Reference" "#PWR037"
+			(at 248.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "786c77dc-28b8-4587-83ea-e351adf3edb5")
+		)
+		(instances
+			(project "HOT_AIRGUN_EXTRADOPE"
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 72.39 147.32 0)
 		(mirror y)
@@ -10683,6 +10852,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 267.97 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d274a5a-5f90-4ecf-8921-a46513be1913")
+		(property "Reference" "#PWR080"
+			(at 267.97 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 265.684 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 267.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45c66cf4-9c41-4e7f-800e-f0688bf7beee")
+		)
+		(instances
+			(project "HOT_AIRGUN_EXTRADOPE"
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 269.24 78.74 0)
 		(unit 1)
@@ -10780,7 +11015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm_Relief"
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm"
 			(at 166.37 41.91 0)
 			(effects
 				(font
@@ -10987,17 +11222,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 172.72 113.03 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 137.16 179.07 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "666cbab6-c2b3-4f2e-8d31-2209b147785d")
-		(property "Reference" "TP2"
-			(at 175.26 108.4579 0)
+		(uuid "64b2d70d-80bd-48b4-91b3-48042610f81c")
+		(property "Reference" "H3"
+			(at 139.7 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,8 +11240,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Vref_TPgnd"
-			(at 175.26 110.9979 0)
+		(property "Value" "MountingHole"
+			(at 139.7 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,8 +11249,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 177.8 113.03 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 137.16 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +11259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 113.03 0)
+			(at 137.16 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,22 +11267,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 172.72 113.03 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 137.16 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "7c3c0e4c-3554-4090-95e7-d5ce05b2f805")
 		)
 		(instances
 			(project "HOT_AIRGUN_EXTRADOPE"
 				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
-					(reference "TP2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11181,6 +11413,72 @@
 			(project "HOT_AIRGUN_EXTRADOPE"
 				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 240.03 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d0fb150-f97d-45d6-ae56-9911df68b45f")
+		(property "Reference" "#PWR082"
+			(at 240.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 237.744 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 240.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45f950ac-3e69-4873-a5dd-8409ffaf627f")
+		)
+		(instances
+			(project "HOT_AIRGUN_EXTRADOPE"
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -11677,7 +11975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 37.592 156.972 0)
 			(effects
 				(font
@@ -12172,7 +12470,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 24.892 156.972 0)
 			(effects
 				(font
@@ -12883,7 +13181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 31.242 156.972 0)
 			(effects
 				(font
@@ -13037,7 +13335,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb026c34-eafe-4436-b26f-308c29496e0b")
 		(property "Reference" "U13"
 			(at 252.73 138.4299 0)
@@ -13049,7 +13346,7 @@
 			)
 		)
 		(property "Value" "DB301V-3.5-2P-GN"
-			(at 252.73 140.9699 0)
+			(at 232.664 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,6 +13538,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:NEUT")
+		(at 256.54 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d23a5f-4a1e-40f3-ba95-2b7cc38563ad")
+		(property "Reference" "#PWR079"
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NEUT"
+			(at 256.54 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"NEUT\""
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9eadd805-5215-4826-b116-82a7de2ea8e8")
+		)
+		(instances
+			(project "HOT_AIRGUN_EXTRADOPE"
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 59.69 92.71 0)
 		(unit 1)
@@ -13390,7 +13753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 12.192 156.972 0)
 			(effects
 				(font
@@ -13436,6 +13799,73 @@
 			(project "HOT_AIRGUN_EXTRADOPE"
 				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 248.92 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb7bc3a8-9463-48ae-a1a5-80a7be98b7ee")
+		(property "Reference" "TP10"
+			(at 251.46 32.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND_TP"
+			(at 251.46 34.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 254 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72b34545-de45-4f15-958b-1f6e8099cc7c")
+		)
+		(instances
+			(project "HOT_AIRGUN_EXTRADOPE"
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -13655,72 +14085,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d59110e7-2736-42b7-a34b-54a961c6d178")
-		(property "Reference" "#PWR051"
-			(at 172.72 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb89328b-1278-499a-9bfe-d84d0d5666e4")
-		)
-		(instances
-			(project "HOT_AIRGUN_EXTRADOPE"
-				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 88.9 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13859,6 +14223,70 @@
 			(project "HOT_AIRGUN_EXTRADOPE"
 				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 137.16 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deaf552b-7ae8-484c-af12-71756ceea501")
+		(property "Reference" "H1"
+			(at 139.7 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 139.7 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -14241,7 +14669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 18.542 156.972 0)
 			(effects
 				(font
@@ -14287,6 +14715,72 @@
 			(project "HOT_AIRGUN_EXTRADOPE"
 				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:NEUT")
+		(at 229.87 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb793a7-d6f0-47ef-80ad-54e6b455a35a")
+		(property "Reference" "#PWR078"
+			(at 229.87 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NEUT"
+			(at 229.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"NEUT\""
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43ebd0d0-325d-4c74-8a5d-56349a0b3002")
+		)
+		(instances
+			(project "HOT_AIRGUN_EXTRADOPE"
+				(path "/802918a8-aafb-4566-8705-f7e584ce33ac"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
