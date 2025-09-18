@@ -1,0 +1,292 @@
+(footprint "TO-220-3_Horizontal_TabUp"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
+	(tags "TO-220-3 Horizontal RM 2.54mm")
+	(property "Reference" "Q2"
+		(at 2.54 20.58 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "863ecefb-d2e0-47e2-8047-a7f2734f69e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NMOS"
+		(at 2.54 -2 180)
+		(layer "F.Fab")
+		(uuid "9d623556-599c-46f9-a310-f9ed3bf58f3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ce5252f-abbd-436e-8fd5-7104fe1cb8a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5798565-d464-435d-9b24-7d1b2845c5a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "NMOS"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b61ee55f-7df2-488e-b22d-ddb48643d7ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "VDMOS"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "430a5e50-eea4-495b-9985-e930ff7f74d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=D 2=G 3=S"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b4a02a1-b91c-494a-8584-4306134657f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.71 -1.25)
+		(end -2.71 19.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcfcd6cf-1281-4364-b9b6-5b06c64ebfa6")
+	)
+	(fp_line
+		(start -2.71 19.71)
+		(end 7.79 19.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3606f41-26ea-47fc-b0a0-3269e97eec3b")
+	)
+	(fp_line
+		(start 7.79 -1.25)
+		(end -2.71 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "059aa79f-fe75-4ed8-a9b9-3da98a07288c")
+	)
+	(fp_line
+		(start 7.79 19.71)
+		(end 7.79 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d119f554-d3aa-4b0d-ae98-6d715b884537")
+	)
+	(fp_line
+		(start -2.46 3.81)
+		(end -2.46 13.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef8a8ab5-6764-40a7-9f0f-2bf326f68ac7")
+	)
+	(fp_line
+		(start -2.46 13.06)
+		(end -2.46 19.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eaa86d13-1434-470e-8b0a-558136c97262")
+	)
+	(fp_line
+		(start -2.46 13.06)
+		(end 7.54 13.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3be4b985-58c3-44db-9fb3-8310e9deabb8")
+	)
+	(fp_line
+		(start -2.46 19.46)
+		(end 7.54 19.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52dcd9fc-8411-4b93-80f1-a1670c7f68d8")
+	)
+	(fp_line
+		(start 0 3.81)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91d99af2-3e98-402b-9248-736c00f78952")
+	)
+	(fp_line
+		(start 2.54 3.81)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39836b4b-8843-4973-ba76-7adedf881932")
+	)
+	(fp_line
+		(start 5.08 3.81)
+		(end 5.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a527b864-2fdb-4cb1-96ad-e0ede058fade")
+	)
+	(fp_line
+		(start 7.54 3.81)
+		(end -2.46 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2dab2181-f454-4393-8a5f-b5a52b0e58d3")
+	)
+	(fp_line
+		(start 7.54 13.06)
+		(end -2.46 13.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79581bbb-3a2a-4a6b-82df-0aeb7ea42f3d")
+	)
+	(fp_line
+		(start 7.54 13.06)
+		(end 7.54 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "382df494-103d-4e63-a3cb-6c7bb2b13e7f")
+	)
+	(fp_line
+		(start 7.54 19.46)
+		(end 7.54 13.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9b628aa-67ec-445d-b2ab-8476f7009251")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 20.58 180)
+		(layer "F.Fab")
+		(uuid "77b8180b-ecd1-4ccd-b336-0fef6686f07d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d57aa04-6617-49ba-bc3f-93c3bef62a41")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86506b87-2132-4045-9462-0a45f87606e7")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9027923-7db9-4f67-a453-e1946ddb4c3c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabUp.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

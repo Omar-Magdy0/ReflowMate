@@ -1,4 +1,4 @@
-24770734126947596
+24802420677852496
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57267,6 +57267,13 @@ CAP-TH_BD10.0-P5.00-D0.6-FD
 2
 2
 EasyEDA
+CONN-TH_5P-P3.50_DORABO_DB125-3.5-5P-GN-S
+
+
+0
+5
+5
+EasyEDA
 CONN-TH_DB301V-3.5-2P-GN
 
 
@@ -57288,12 +57295,26 @@ DIP-6_L8.5-W6.4-P2.54-LS7.6-BL
 6
 6
 EasyEDA
+IND-SMD_L7.1-W6.6_H5.0
+
+
+0
+2
+2
+EasyEDA
 IND-SMD_L12.5-W12.5
 
 
 0
 2
 2
+EasyEDA
+RES-ADJ-TH_3P-L10.0-W10.0-P2.50-L
+
+
+0
+3
+3
 EasyEDA
 RES-ADJ-TH_3296W
 
@@ -57302,6 +57323,13 @@ RES-ADJ-TH_3296W
 3
 3
 EasyEDA
+SC70-6_L2.1-W1.3-P0.65-LS2.3-BL
+
+
+0
+6
+6
+EasyEDA
 SMA_L4.3-W2.6-LS5.2-RD
 
 
@@ -57309,7 +57337,21 @@ SMA_L4.3-W2.6-LS5.2-RD
 2
 2
 EasyEDA
+SO-8_L4.9-W3.9-P1.27-LS5.9-BL
+
+
+0
+8
+8
+EasyEDA
 SOD-123_L2.8-W1.8-LS3.7-RD
+
+
+0
+2
+2
+EasyEDA
+SOD-323_L1.7-W1.3-LS2.5-RD
 
 
 0
@@ -57336,6 +57378,20 @@ SOP-4_L6.5-W4.6-P2.54-LS10.3-TL
 0
 4
 4
+EasyEDA
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+8
+8
+EasyEDA
+SOP-8_L5.1-W4.0-P1.27-LS6.0-BL
+
+
+0
+8
+8
 EasyEDA
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
 
@@ -57371,6 +57427,13 @@ SW-SMD_L6.0-W3.5-LS8.0
 0
 2
 2
+EasyEDA
+TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL
+
+
+0
+20
+20
 EasyEDA
 WIFIM-SMD_39P-L25.5-W18.0-P1.27-BL
 
@@ -65974,20 +66037,83 @@ Yellow 5381 Series LED
 0
 2
 2
-LibMAIN
-PDIP6_8P89X6P60_ONS
+LibMain
+DIP-8_SOP-8
 
-MOC3020M 
+
 0
-6
-6
-LibMAIN
-SO4_DB-1S_MTC-L
+16
+8
+LibMain
+MadeWithKicad
 
-DB106S 
+
+0
+0
+0
+LibMain
+NetTie-2_SMD_Pad0.2mm
+
+
+0
+1
+1
+LibMain
+PowerConn10X
+
+
+0
+12
+10
+LibMain
+PowerConn_01x02_P20
+
+
+0
+2
+2
+LibMain
+PowerConn_01x03_P20
+
+
+0
+3
+3
+LibMain
+PowerConn_01x05_P20
+
+
+0
+80
+5
+LibMain
+SOT-223-3_TabPin2_NOSILKSCREEN
+module CMS SOT223 4 pins
+CMS SOT
 0
 4
-4
+3
+LibMain
+TO-220 HeatPad
+
+
+0
+32
+1
+LibMain
+TO-220-3_Horizontal_TabUp
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+LibMain
+universal electroCap_P3.5-5-7.5mm
+
+
+0
+3
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

@@ -1,0 +1,218 @@
+(footprint "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.68 0)
+		(layer "F.SilkS")
+		(uuid "cbcabfb0-d8ac-46dc-bf40-6aaeba8250a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(at 0 6.68 0)
+		(layer "F.Fab")
+		(uuid "f34efee9-fa07-432e-a2d5-6b38e69ad695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "674b2206-4c73-4fa8-9e17-1ec6ffcc46d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ef6ec75-965f-48a7-a8f7-3fbe7530e513")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.48)
+		(end 2.5 -1.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "601e5446-304a-4a28-b1a2-1b677f96c9f4")
+	)
+	(fp_line
+		(start -2.5 -0.63)
+		(end -2.5 -1.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dd982a6-42c0-4a0f-9e3c-b5304339054b")
+	)
+	(fp_line
+		(start -2.5 0.63)
+		(end -2.5 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f19a7c88-8601-4c9b-9454-5aeedef7c402")
+	)
+	(fp_line
+		(start -2.5 1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0179ab22-6f61-418f-9cb9-3976550227aa")
+	)
+	(fp_line
+		(start 2.5 1.5)
+		(end 2.5 -1.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fef84843-db4b-4634-a8cf-903723511b1b")
+	)
+	(fp_arc
+		(start -2.5 -0.63)
+		(mid -1.970474 -0.002632)
+		(end -2.494818 0.629073)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3feead9e-a893-418d-b550-1246e9cabdfe")
+	)
+	(fp_circle
+		(center -1.91 1.02)
+		(end -1.76 1.02)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c162ddf2-3b0d-41ce-9297-b61f7c370c3b")
+	)
+	(fp_circle
+		(center -1.91 3.4)
+		(end -1.76 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "49457484-0ae8-4c0f-a230-aa43420c2c45")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1ecf7cc2-3d3c-4547-b664-4a122ccc3efa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "448aeae9-9eb0-4baa-8a51-bbe2f09a4788")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9828d574-1ca7-498a-886d-70361d8dcc2f")
+	)
+	(pad "2" smd oval
+		(at -0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "073a4c2f-4a30-4aab-a39f-a4110230637b")
+	)
+	(pad "3" smd oval
+		(at 0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6343e5f0-d1e6-42f9-be6e-c2fed10304d6")
+	)
+	(pad "4" smd oval
+		(at 1.9 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a7cfb872-c60e-42d9-91c7-64d0a5c79fcf")
+	)
+	(pad "5" smd oval
+		(at 1.9 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "528769c7-27b2-4ee4-8306-1e8b0babd113")
+	)
+	(pad "6" smd oval
+		(at 0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f233b90d-8743-4194-a1cc-513c1b254a95")
+	)
+	(pad "7" smd oval
+		(at -0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b75c5f8-84bc-44bc-a41b-6fa39499d81f")
+	)
+	(pad "8" smd oval
+		(at -1.91 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dfcf1ad8-3625-4231-8c4d-5f8b9a712223")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LIB/EasyEDA.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

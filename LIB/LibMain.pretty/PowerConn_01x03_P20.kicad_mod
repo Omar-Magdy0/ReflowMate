@@ -1,0 +1,93 @@
+(footprint "PowerConn_01x03_P20"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 20.05 -0.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "050fb227-f21e-4af0-9c93-4502b541b523")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PowerConn_01x03_P20"
+		(at 20.05 1.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33f7de4d-4d31-497d-966f-df651a169220")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 20.05 0.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6af5426-ebf9-4a8a-9fa5-6af6f0f34956")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 20.05 0.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ea8e395-f057-4cad-b17a-a76324e07803")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole roundrect
+		(at -20.05 -6.55)
+		(size 15 15)
+		(drill 6.2
+			(offset 0 -1)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "aafbbbe4-5605-426a-b5e9-334fed7d7d0e")
+	)
+	(pad "2" thru_hole roundrect
+		(at -0.05 -6.55)
+		(size 15 15)
+		(drill 6.2
+			(offset 0 -1)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "9efae72b-9dc9-42bc-8691-422b71486c8a")
+	)
+	(pad "3" thru_hole roundrect
+		(at 19.95 -6.55)
+		(size 15 15)
+		(drill 6.2
+			(offset 0 -1)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "8c8e3a12-17f1-4e88-b2f0-9abcb14efa9a")
+	)
+	(embedded_fonts no)
+)
